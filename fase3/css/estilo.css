@@ -1,0 +1,23 @@
+h1{
+    background-color: #B983FF;
+    color: #3F3351;
+    text-align: center;
+}
+nav{
+    background-color: #94DAFF;
+}
+section{
+    background-color: #99FEFF;
+    grid-column: 1/4;
+}
+aside{
+    background-color: #DED9C4;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #E9A6A6;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
